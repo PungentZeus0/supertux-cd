@@ -10,7 +10,7 @@
 logo <- FloatingImage(\"images/objects/logo/logo_final.sprite\");
 Tux.deactivate();
 logo.set_anchor_point(ANCHOR_MIDDLE);
-logo.set_pos(0, -171);
+logo.set_pos(0, -181);
 logo.set_visible(true);
 ")
     (ambient-light
