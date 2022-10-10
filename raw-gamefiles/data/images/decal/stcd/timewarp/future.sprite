@@ -1,0 +1,55 @@
+(supertux-sprite
+  (action
+    (name "closed")
+    (hitbox 8 4 44 92)
+    (images 
+      "future-0.png"
+    )
+  )
+  (action
+    (name "opening")
+    (hitbox 8 4 44 92)
+    (images 
+      "future-0.png"
+      "future-1.png"
+      "future-2.png"
+      "future-3.png"
+      "future-2.png"
+      "future-1.png"
+      "future-2.png"
+      "future-3.png"
+	  "future-4.png"
+    )
+  )
+  (action
+    (name "open")
+    (hitbox 8 4 44 92)
+    (images 
+      "future-4.png"
+    )
+  )
+  (action
+    (name "closing")
+    (hitbox 8 4 44 92)
+    (images 
+	  "future-4.png"
+      "future-3.png"
+      "future-2.png"
+      "future-1.png"
+      "future-2.png"
+      "future-3.png"
+      "future-2.png"
+      "future-1.png"
+	  "future-0.png"
+    )
+  )
+  (action
+    (name "locked")
+    (hitbox 8 4 44 92)
+    (images 
+      "door-locked.png"
+    )
+  )
+)
+
+

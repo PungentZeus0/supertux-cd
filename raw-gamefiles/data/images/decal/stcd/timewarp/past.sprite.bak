@@ -1,0 +1,13 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (images 
+      "warn_0.png"
+      "warn_1.png"
+      "warn_2.png"
+      "warn_3.png"
+	  "warn_4.png"
+      )
+    )
+  )
+
