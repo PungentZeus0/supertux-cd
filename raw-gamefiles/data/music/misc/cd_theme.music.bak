@@ -1,0 +1,5 @@
+(supertux-music
+  (file "cd_theme.ogg")
+  (loop-begin 12)
+  (loop-at    34)
+)

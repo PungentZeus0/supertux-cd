@@ -1,0 +1,5 @@
+(supertux-music
+  (file "palmpan_goodfut.ogg")
+  (loop-begin 142)
+  (loop-at    -1)
+)

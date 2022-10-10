@@ -1,0 +1,5 @@
+(supertux-music
+  (file "colcha_badfut.ogg")
+  (loop-begin 730)
+  (loop-at    -1)
+)

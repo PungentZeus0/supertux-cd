@@ -1,0 +1,5 @@
+(supertux-music
+  (file "palmpan_past.ogg")
+  (loop-begin 99)
+  (loop-at    -1)
+)

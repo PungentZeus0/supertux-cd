@@ -1,0 +1,5 @@
+(supertux-music
+  (file "level_select_map.ogg")
+  (loop-begin 0)
+  (loop-at    -1)
+)
