@@ -15,13 +15,17 @@
          (fps 15.0)
          (hitbox 8 16 32 32)
          (images "small/walk-0.png"
+				 "small/walk-0.png"
                  "small/walk-1.png"
+				 "small/walk-1.png"
                  "small/walk-2.png"
-                 "small/walk-3.png"
+				 "small/walk-2.png"
                  "small/walk-4.png"
+				 "small/walk-4.png"
                  "small/walk-5.png"
-                 "small/walk-6.png"
-                 "small/walk-7.png"))
+				 "small/walk-5.png"
+                 "small/walk-7.png"
+				 "small/walk-7.png"))
 
        (action
          (name "small-walk-left")
