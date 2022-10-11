@@ -1,5 +1,5 @@
 (supertux-music
   (file "palmpan_pres.ogg")
-  (loop-begin 142)
+  (loop-begin 0)
   (loop-at    -1)
 )
