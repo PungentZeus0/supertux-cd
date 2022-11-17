@@ -1,0 +1,16 @@
+(supertux-tiles
+  (tilegroup
+    (name (_ "MC Village"))
+	(tiles
+	  4797 0 0 0)	
+  )
+  (tiles
+    (width 1)
+	(height 1)
+	(ids
+	  4797)
+	(attributes
+	  1)
+	(image "tiles/minecraft/village/grass_block_side.png")
+  )
+)

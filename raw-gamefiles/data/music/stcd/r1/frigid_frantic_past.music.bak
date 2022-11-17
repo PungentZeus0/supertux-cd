@@ -1,0 +1,5 @@
+(supertux-music
+  (file "frigid frantic past.ogg")
+  (loop-begin 0)
+  (loop-at    40.254)
+)

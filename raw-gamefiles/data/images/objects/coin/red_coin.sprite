@@ -1,0 +1,21 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (fps 15.0)
+          (images "red_coin-0.png"
+                  "red_coin-1.png"
+                  "red_coin-2.png"
+                  "red_coin-3.png"
+                  "red_coin-4.png"
+                  "red_coin-5.png"
+                  "red_coin-6.png"
+                  "red_coin-7.png"
+                  "red_coin-8.png"
+                  "red_coin-9.png"
+                  "red_coin-10.png"
+                  "red_coin-11.png"
+                  "red_coin-12.png"
+                  "red_coin-13.png"
+                  "red_coin-14.png"
+                  "red_coin-15.png"))
+)
