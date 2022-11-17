@@ -4,14 +4,16 @@
   (author "Pungey")
   (note "Level for the title screen of the SuperTux CD mod.")
   (license "CC-BY-SA 4.0 International")
+  (icon "")
+  (icon-locked "")
   (sector
     (name "main")
-	 (init-script "
-logo <- FloatingImage(\"images/objects/logo/logo_final.sprite\");
-Tux.deactivate();
-logo.set_anchor_point(ANCHOR_MIDDLE);
-logo.set_pos(0, -181);
+	(init-script "
+logo <- FloatingImage(\"images/objects/logo/logo.sprite\");
+	logo.set_anchor_point(ANCHOR_MIDDLE);
+logo.set_pos(0, -174);
 logo.set_visible(true);
+Tux.deactivate();
 ")
     (ambient-light
       (color 1 1 1)
@@ -19,7 +21,6 @@ logo.set_visible(true);
     (background
       (scroll-offset-y -50)
       (color 1 1 1)
-      (scroll-speed-x 80)
       (speed 8)
       (speed-y 0)
       (image "images/background/antarctic/arctis2.png")
@@ -71,9 +72,19 @@ logo.set_visible(true);
       (name "Camera")
       (mode "normal")
     )
+    (decal
+      (z-pos 305)
+      (sprite "/images/engine/menu/title_little-planet_small.png")
+      (x 928)
+      (y 224)
+    )
+    (decal
+      (x 672)
+      (y 128)
+    )
     (gradient
       (top_color 0.08183279 0 0.5799513)
-      (bottom_color 0.5342211 0.5335494 1)
+      (bottom_color 0.3204593 0.2899225 0.7327244)
       (z-pos 301)
     )
     (invisible_wall
@@ -104,7 +115,7 @@ logo.set_visible(true);
       (file "misc\\theme.music")
     )
     (particles-clouds
-      (z-pos 302)
+      (z-pos 306)
     )
     (spawnpoint
       (name "main")
