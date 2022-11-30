@@ -1,0 +1,10 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (fps 5)
+    (images "menu-0.png"
+            "menu-1.png"
+			"menu-2.png"
+			"menu-3.png")
+  )
+)
