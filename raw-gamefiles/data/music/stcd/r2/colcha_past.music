@@ -1,5 +1,5 @@
 (supertux-music
   (file "colcha_past.ogg")
-  (loop-begin 171)
-  (loop-at    -1)
+  (loop-begin 3.9)
+  (loop-at    78.6)
 )

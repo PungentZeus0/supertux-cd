@@ -1316,6 +1316,7 @@
 	  (image "images/credits/SEGA-credit.png"
       )
 	  (blank)
+	  (blank)
 	  (image "images/credits/imind-credit.png"
 	  )
 	  (blank)

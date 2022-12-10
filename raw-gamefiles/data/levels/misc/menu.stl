@@ -19,11 +19,12 @@ Tux.deactivate();
       (color 1 1 1)
     )
     (background
-      (scroll-offset-y -50)
-      (color 1 1 1)
+      (scroll-offset-y -100)
+      (color 0.4 0.6 0.7)
+      (scroll-speed-x 10)
       (speed 8)
       (speed-y 0)
-      (image "images/background/antarctic/arctis2.png")
+      (image "/images/background/antarctic/snow_hills.png")
       (z-pos 310)
     )
     (background
@@ -63,10 +64,13 @@ Tux.deactivate();
     )
     (background
       (scroll-offset-x 736)
-      (scroll-offset-y 512)
+      (scroll-offset-y -200)
       (color 1 1 1)
+      (alignment "bottom")
+      (scroll-speed-x 50)
       (speed 0.5)
-      (image "images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/snowy_trees.png")
+      (z-pos 311)
     )
     (camera
       (name "Camera")

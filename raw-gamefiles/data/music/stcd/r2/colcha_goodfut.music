@@ -1,5 +1,5 @@
 (supertux-music
   (file "colcha_goodfut.ogg")
-  (loop-begin 400)
-  (loop-at    -1)
+  (loop-begin 9.1)
+  (loop-at    82.3)
 )

@@ -1,5 +1,5 @@
 (supertux-music
-  (file "palmpan_past.ogg")
-  (loop-begin 99)
+  (file "colcha_past.ogg")
+  (loop-begin 171)
   (loop-at    -1)
 )

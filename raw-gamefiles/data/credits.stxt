@@ -19,6 +19,10 @@
 	  (info (_ "Mod Creator"))
 	)
 	(blank)
+	(person
+	  (name "RodirodDude")
+	  (info (_ "Music"))
+	)
 	(blank)
 	(text
       (type "heading")
