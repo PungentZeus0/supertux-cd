@@ -8,7 +8,7 @@
   (icon-locked "")
   (sector
     (name "main")
-	(init-script "
+    (init-script "
 logo <- FloatingImage(\"images/objects/logo/logo.sprite\");
 	logo.set_anchor_point(ANCHOR_MIDDLE);
 logo.set_pos(0, -174);
@@ -72,6 +72,14 @@ Tux.deactivate();
       (image "/images/background/antarctic/snowy_trees.png")
       (z-pos 311)
     )
+    (background
+      (scroll-offset-x 472)
+      (color 1 1 1)
+      (scroll-speed-x 5)
+      (speed 0.5)
+      (image "/images/background/misc/skybox.png")
+      (z-pos 309)
+    )
     (camera
       (name "Camera")
       (mode "normal")
@@ -80,11 +88,18 @@ Tux.deactivate();
       (z-pos 305)
       (sprite "/images/engine/menu/title_little-planet_small.png")
       (x 928)
-      (y 224)
+      (y 184)
     )
     (decal
-      (x 672)
+      (x 664)
       (y 128)
+    )
+    (decal
+      (name "version")
+      (z-pos 320)
+      (sprite "/images/engine/menu/version.png")
+      (x 8)
+      (y 736)
     )
     (gradient
       (top_color 0.08183279 0 0.5799513)
@@ -117,9 +132,6 @@ Tux.deactivate();
     )
     (music
       (file "misc\\theme.music")
-    )
-    (particles-clouds
-      (z-pos 306)
     )
     (spawnpoint
       (name "main")
